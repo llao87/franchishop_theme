@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 0.65vw;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        font-size: 0.7vw;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 0.8vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 1.03022vw;
+        padding: 0 1.3333em;
+    }
+}
+
+.navigation ul {
+    list-style: none;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    letter-spacing: 0.05em;
+}
+
+.navigation ul li {}
+
+.navigation ul li a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #42454e;
+    font-size: 1.6em;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: all 0.25s linear 0s;
+}
+
+.navigation ul li.current_page_item a,
+.navigation ul li.current_page_item a:active {
+    color: #3794fe;
+}
+
+.navigation ul li a:hover {
+    color: #3794fe;
+}
+
+footer .container .top .menu ul {
+    list-style-type: none;
+    padding: 0 0 0 0.2em;
+    margin: 0;
+}
+
+footer .container .top .menu ul .menu-item {
+    margin: 0 0 2.4em 0;
+}
+
+footer .container .top .menu ul .menu-item a {
+    font-weight: 300;
+    font-size: 1.6em;
+    line-height: 1.43;
+    color: inherit;
+    letter-spacing: 0.03em;
+    text-transform: lowercase;
+    text-decoration: none;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+footer .container .top .menu ul .menu-item a:hover,
+footer .container .top .menu ul .menu-item.current_page_item a {
+    color: #3794fe;
+}
+
+.catalog-section .container .field-wrap .filter-field {
+    text-decoration: none;
+    color: inherit;
+}
+
+.catalog-section .container .franchises .sort-blocks .selector-wrap {
+    border-radius: 0.6em;
+    /* padding: 0.9em 0.6em; */
+}
+
+.catalog-section .container .franchises .sort-blocks .selector-wrap::after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    background-image: url(../img/icon-sort-selector-arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 0.6em;
+    height: 0.6em;
+    top: 50%;
+    right: 0.9em;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.catalog-section .container .franchises .sort-blocks .selector-wrap span.ui-selectmenu-text {
+    padding: 0.9em 0.6em;
+    display: block;
+    cursor: pointer;
+}
+
+.catalog-section .container .franchises .sort-blocks .selector-wrap .filter-selector {
+    font-weight: 300;
+    padding: 0.7em 1.1em 0.8em 0.7em;
+    letter-spacing: -0.025em;
+}
+
+.first-section.favourite-franchise-section .container .favourite-franchise .photo .photo-img {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    max-height: none;
+}
+
+.tech-support {
+    overflow: hidden;
+}
+
+.contacts-section .container .map-row {}
+
+@media screen and (max-width: 768px) {
+    .contacts-section .container .map-row {
+        flex-direction: column;
+    }
+}
+
+.contacts-section .container .map-row .company-data {}
+
+@media screen and (max-width: 768px) {
+    .contacts-section .container .map-row .company-data {
+        width: 100%;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        margin: 0 0 2.4em 0;
+    }
+}
+
+.contacts-section .container .map-row .company-data .requisites-wrap {}
+
+@media screen and (max-width: 768px) {
+    .contacts-section .container .map-row .company-data .requisites-wrap {
+        width: 49%;
+        margin-bottom: 0;
+    }
+}
+
+.contacts-section .container .map-row .company-data .address-wrap {}
+
+@media screen and (max-width: 768px) {
+    .contacts-section .container .map-row .company-data .address-wrap {
+        width: 49%;
+    }
+}
+
+.contacts-section .container .map-row .map-wrap .map-inner .map {}
+
+@media screen and (max-width: 768px) {
+    .contacts-section .container .map-row .map-wrap .map-inner .map {
+        width: 100%;
+    }
+}
