@@ -27,7 +27,7 @@ $seoData = get_field('seo-group');
 </head>
 
 <body <?php body_class('home') ?>>
-    <div class="local">This is local version</div>
+    <div class="local">DEV version</div>
     <header class="header">
         <div class="container">
             <a class="logo" href="/">
