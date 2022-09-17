@@ -12,9 +12,22 @@ $seoData = get_field('seo-group');
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <title><?= $seoData['title'] ?></title>
     <?php wp_head(); ?> 
+    <style>
+        .local {
+            position: fixed;
+            top: 0;
+            background-color: red;
+            font-size: 1.4em;
+            padding: 1em;
+            color: white;
+            text-align: center;
+            opacity: 0.6;
+        }
+    </style>
 </head>
 
 <body <?php body_class('home') ?>>
+    <div class="local">This is local version</div>
     <header class="header">
         <div class="container">
             <a class="logo" href="/">
